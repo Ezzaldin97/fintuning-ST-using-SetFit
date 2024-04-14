@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fintuning-st-using-setfit"
+version = "0.1.0"
+description = "Using SetFit approach to fintune LaBSE Sentence Transformer on Arabic News Classification"
+authors = ["Ezzaldin97 <kingtal632@yahoo.com>"]
+readme = "README.md"
+packages = [{include = "fintuning_st_using_setfit"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.38.2"
+sentence-transformers = "^2.6.1"
+setfit = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
